@@ -12,7 +12,6 @@ def index(request):
 	if Quote.objects.count() == 0:
 		file = open(os.path.join(settings.BASE_DIR, 'quotes.txt'), 'r')
 		for line in file:
-			print(line)
 			Quote.objects.create(text=line)
 
 	count = Quote.objects.count()
