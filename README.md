@@ -1,4 +1,4 @@
-For part2 I chose B) to create a webpage that displays quotes from The Zen of Python.
+Randomly display quotes from The Zen of Python. Built within 1.5 hr.
 Usage: 
   1. Download the file
   2. Direct to the root of pythonzen
